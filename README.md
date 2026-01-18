@@ -14,9 +14,9 @@ When the real API is unavailable, it gracefully falls back to mock data while pr
 ---
 
 ## Project Structure
-src/ # TypeScript source code
-public/ # Static files and compiled output
-tests/ # Unit tests
+- src/      TypeScript source code
+- public/  Static files and compiled output
+- tests/   Unit tests
 
 
 ---
