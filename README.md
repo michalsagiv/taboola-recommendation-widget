@@ -23,24 +23,20 @@ When the real API is unavailable, it gracefully falls back to mock data while pr
 
 ## Running the Project
 
-1. Install dependencies:
 ```bash
+1. Install dependencies:
 npm install
-
-
 
 2. Compile TypeScript:
 npx tsc
 
 3. Serve over HTTP (required for ES modules):
-
 Recommended:
 Right-click public/index.html → Open with Live Server
 
 Alternative:
 Serve the public folder using any static HTTP server
 
-Testing
-
+4.Testing
 Run unit tests with:
 npx vitest
