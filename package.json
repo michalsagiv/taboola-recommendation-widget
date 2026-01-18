@@ -1,0 +1,20 @@
+{
+  "name": "taboola-widget",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "esbuild src/main.ts --bundle --sourcemap --outdir=public/assets --format=esm --target=es2017 --watch --servedir=public",
+    "build": "esbuild src/main.ts --bundle --minify --sourcemap --outdir=public/assets --format=esm --target=es2017",
+    "preview": "npm run build && npx serve public",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "esbuild": "^0.20.2",
+    "jsdom": "^24.0.0",
+    "typescript": "^5.4.5",
+    "vitest": "^1.5.0"
+  }
+}
